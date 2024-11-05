@@ -3,9 +3,16 @@
 # Intro
 Hello! Welcome to my Sokoban project developed on Linux using the SFML library. The objective of the game is to push crates into their designated positions on the map. The game includes various gameplay mechanics such as tracking progress, backtracking steps, dragging back crates, and resetting the game.
 
-![Initial map layout with some crates in position.](resources/SS1.png)
-![Completed game](resources/SS2.png)
-![A new generated object locations](resources/SS3.png)
+**Initial map layout with some crates in position.**
+<img src="resources/SS1.png" alt="Initial map layout with some crates in position." width="200"/>
+
+**Completed game**
+<img src="resources/SS3.png" alt="Completed game" width="200"/>
+
+**A new generated object locations**
+<img src="resources/SS2.png" alt="A new generated object locations" width="200"/>
+
+
 
 # Features
 - **Gameplay Tracking**: Saves every movement in the game and allows the player to backtrack each step with the 'R' key, and drag boxes with the 'E' key.
