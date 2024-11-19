@@ -35,16 +35,16 @@ int main(int argc, char* argv[]) {
                             game = savedGame;
                             game.setText(text); 
                             break;
-                        case sf::Keyboard::Up:
+                        case sf::Keyboard::W:
                             game.movePlayer(Up);
                             break;
-                        case sf::Keyboard::Left:
+                        case sf::Keyboard::A:
                             game.movePlayer(Left);
                             break;
-                        case sf::Keyboard::Down:
+                        case sf::Keyboard::S:
                             game.movePlayer(Down);
                             break;
-                        case sf::Keyboard::Right:
+                        case sf::Keyboard::D:
                             game.movePlayer(Right);
                             break;
                         case sf::Keyboard::R:
